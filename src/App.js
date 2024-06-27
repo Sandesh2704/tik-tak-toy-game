@@ -81,9 +81,12 @@ function App() {
 
   return (
     <div className="App">
-      <ScoreBoard score={score} xPlaying={xPlaying}/>
+
+
+    hi y cresxhtcvf
+      {/* <ScoreBoard score={score} xPlaying={xPlaying}/>
       <Board board={board} onClick={gameOver? resetBoard : handleBoxClick} />
-      <ResetBotton resetBoard={resetBoard} resetScore={resetScore}/>
+      <ResetBotton resetBoard={resetBoard} resetScore={resetScore}/> */}
     </div>
   );
 }

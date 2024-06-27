@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sandesh2704/tik-tak-toy-game.git/static/css/main.71b40b01.css",
+    "main.js": "/Sandesh2704/tik-tak-toy-game.git/static/js/main.5fd30469.js",
+    "static/js/453.153c41c2.chunk.js": "/Sandesh2704/tik-tak-toy-game.git/static/js/453.153c41c2.chunk.js",
+    "index.html": "/Sandesh2704/tik-tak-toy-game.git/index.html",
+    "main.71b40b01.css.map": "/Sandesh2704/tik-tak-toy-game.git/static/css/main.71b40b01.css.map",
+    "main.5fd30469.js.map": "/Sandesh2704/tik-tak-toy-game.git/static/js/main.5fd30469.js.map",
+    "453.153c41c2.chunk.js.map": "/Sandesh2704/tik-tak-toy-game.git/static/js/453.153c41c2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.71b40b01.css",
+    "static/js/main.5fd30469.js"
+  ]
+}

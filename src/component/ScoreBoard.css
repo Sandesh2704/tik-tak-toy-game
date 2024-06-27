@@ -1,0 +1,27 @@
+.scoreBoard{
+
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    justify-content: space-evenly;
+margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+  width: max-content;
+}
+.score{
+    /* margin: 16rem; */
+    font-size: 1.5rem;
+    padding: 0.6rem 3rem;
+    font-weight: 500;
+   
+}
+.x-score {
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+.o-score {
+    color: red;
+    border-bottom: 3px solid red;
+}
+.inactive{
+    border-bottom: 3px solid transparent;
+}

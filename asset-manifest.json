@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Sandesh2704/tik-tak-toy-game.git/static/css/main.71b40b01.css",
-    "main.js": "/Sandesh2704/tik-tak-toy-game.git/static/js/main.5fd30469.js",
+    "main.css": "/Sandesh2704/tik-tak-toy-game.git/static/css/main.5e42e196.css",
+    "main.js": "/Sandesh2704/tik-tak-toy-game.git/static/js/main.9318361b.js",
     "static/js/453.153c41c2.chunk.js": "/Sandesh2704/tik-tak-toy-game.git/static/js/453.153c41c2.chunk.js",
     "index.html": "/Sandesh2704/tik-tak-toy-game.git/index.html",
-    "main.71b40b01.css.map": "/Sandesh2704/tik-tak-toy-game.git/static/css/main.71b40b01.css.map",
-    "main.5fd30469.js.map": "/Sandesh2704/tik-tak-toy-game.git/static/js/main.5fd30469.js.map",
+    "main.5e42e196.css.map": "/Sandesh2704/tik-tak-toy-game.git/static/css/main.5e42e196.css.map",
+    "main.9318361b.js.map": "/Sandesh2704/tik-tak-toy-game.git/static/js/main.9318361b.js.map",
     "453.153c41c2.chunk.js.map": "/Sandesh2704/tik-tak-toy-game.git/static/js/453.153c41c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.71b40b01.css",
-    "static/js/main.5fd30469.js"
+    "static/css/main.5e42e196.css",
+    "static/js/main.9318361b.js"
   ]
 }

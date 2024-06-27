@@ -4,9 +4,6 @@ import { useState, useEffect } from 'react';
 import ScoreBoard from './component/ScoreBoard';
 import ResetBotton from './component/ResetBotton';
 
-
-
-
 function App() {
 
   const WIN_Condition = [
@@ -20,20 +17,17 @@ function App() {
     [2, 4, 6],
   ]
 
+  const localStorageKey = "score";
   const [board, setBoard] = useState(Array(9).fill(null))
   const [xPlaying, setXPlaying] = useState(true)
-  const [score, setScore] = useState({ xScore: 0, oScore: 0 })
   const [gameOver, setGameOver] = useState(false)
+  const [score, setScore] = useState(() => {
+    const storedScore = localStorage.getItem(localStorageKey);
+    return storedScore ? JSON.parse(storedScore) : { xScore: 0, oScore: 0 };
+  });
 
   useEffect(() => {
-    const storedScores = JSON.parse(localStorage.getItem('score'));
-    if (storedScores) {
-      setScore(storedScores);
-    }
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem('score', JSON.stringify(score));
+    localStorage.setItem(localStorageKey, JSON.stringify(score));
   }, [score]);
 
   const handleBoxClick = (boxIndex) => {
@@ -81,14 +75,15 @@ function App() {
     setBoard(Array(9).fill(null))
   }
 
-
-
+  const resetScore = ()=>{
+    setScore({ xScore: 0, oScore: 0 })
+  }
 
   return (
     <div className="App">
       <ScoreBoard score={score} xPlaying={xPlaying}/>
       <Board board={board} onClick={gameOver? resetBoard : handleBoxClick} />
-      <ResetBotton resetBoard={resetBoard}/>
+      <ResetBotton resetBoard={resetBoard} resetScore={resetScore}/>
     </div>
   );
 }

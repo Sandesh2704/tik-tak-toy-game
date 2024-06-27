@@ -1,6 +1,11 @@
+body{
+  background-color: rgb(220, 243, 253);
+}
 .App {
   display: flex;
   justify-content: center;
+  align-items: center;
+  place-items: center;
   flex-direction: column;
-align-items: center;
 }
+

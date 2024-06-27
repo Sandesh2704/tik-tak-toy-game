@@ -2,9 +2,32 @@
     border: none;
     border-radius: 2px;
     padding: 5px 17px;
-    background-color: aqua;
+    background-color: rgb(53, 252, 255);
     margin-top: 17px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: 500;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
 }
+.buttons{
+    width: 20%;
+    justify-content: space-around;
+display: flex;
+}
+
+
+@media only screen and (max-width:878px) {
+    .buttons{
+        width: 40%;
+    }
+  }
+  
+  @media only screen and (max-width:678px) {
+    .buttons{
+        width: 70%;
+    }
+  }
+  @media only screen and (max-width:378px) {
+    .buttons{
+        width: 100%;
+    }
+  }
